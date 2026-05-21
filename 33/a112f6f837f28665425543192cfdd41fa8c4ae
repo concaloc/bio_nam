@@ -1,0 +1,22 @@
+src/components/sections/BioSection.astro
+  s_d4226715fa403e::t_52e1ff9bb07308 27-29,31
+  s_d4226715fa403e::t_001a20396f685c 30
+  s_d4226715fa403e::t_be8f1f6410758b 60
+  s_d4226715fa403e::t_b9278985deb13a 58-59,61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "33a112f6f837f28665425543192cfdd41fa8c4ae",
+  "prompts": {},
+  "sessions": {
+    "s_d4226715fa403e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1b728c539ffeVzC4VnyhGw9pOB",
+        "model": "accounts/fireworks/routers/kimi-k2p6-turbo"
+      },
+      "human_author": "Minh <jaccob_cassandr4837@hotmail.com>"
+    }
+  }
+}
