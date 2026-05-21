@@ -20,19 +20,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Animated gradient background */
-@keyframes gradient-xy {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-.animated-bg {
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e, #ff006e, #8338ec, #3a86ff);
-  background-size: 400% 400%;
-  animation: gradient-xy 15s ease infinite;
-  position: fixed;
-  inset: 0;
-  z-index: -2;
+/* Background for boxes grid */
+body {
+  background: #020617;
 }
 
 /* Floating particles */

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import BackgroundBoxes from '../components/react/BackgroundBoxes';
 
 interface Props {
   title: string;
@@ -24,8 +25,8 @@ const { title, description = 'Bio page' } = Astro.props;
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body>
-    <div class="animated-bg" aria-hidden="true"></div>
+  <body class="bg-slate-950">
+    <BackgroundBoxes client:only="react" />
     <slot />
 
     <script is:inline>
