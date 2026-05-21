@@ -1,0 +1,52 @@
+src/components/react/AnimatedWave.tsx
+  s_d4226715fa403e::t_56aa7bd90ece6e 1-210
+src/pages/index.astro
+  s_d4226715fa403e::t_4c7103617e4dfa 6
+src/styles/global.css
+  s_d4226715fa403e::t_6639ed9a5a96f5 23,25
+  s_d4226715fa403e::t_e6d2c5c9364837 24
+src/components/react/MorphingText.tsx
+  s_d4226715fa403e::t_2ddb4a8d7c248e 102,106
+  s_d4226715fa403e::t_53099be4f8d47d 13,16,21,24,53,84,86,91
+  s_d4226715fa403e::t_5fca8bc637fa0f 139
+  s_d4226715fa403e::t_feca37174ac7e2 3,5-6,8-12,14-15,17-20,22-23,25-30,32-49,51-52,54,56-83,85,87-90,92-98,100,103-105,107-109,111-138,140-144
+  s_d4226715fa403e::t_f22b0ee93ceb28 1-2,4,7,31,50,55,99,101,110,145-146
+src/components/sections/BioSection.astro
+  s_d4226715fa403e::t_21f9f45a7cd550 22-23,25,31
+  s_d4226715fa403e::t_021f11785df000 39-42
+  s_d4226715fa403e::t_d3b002e31a6b0e 4
+  s_d4226715fa403e::t_23263b9553abab 48,50-52
+  s_d4226715fa403e::t_151fb9593a196d 13-16
+  s_d4226715fa403e::t_2d9680729e3d25 43,45-47
+  s_d4226715fa403e::t_6282450550820c 17-18,20-21
+  s_d4226715fa403e::t_fb780e0ca91b21 53,55-57
+  s_d4226715fa403e::t_05788439be4993 70-71,73-74
+  s_d4226715fa403e::t_0e4c037ae8b2a8 24,26-28,30
+src/components/react/BackgroundBoxes.tsx
+  s_d4226715fa403e::t_aac697cce9a0ef 3,7-8,29-31,33,66-67
+  s_d4226715fa403e::t_52f17d7bce65a0 1-2,4-6,9-28,32,34-65,68-71
+package.json
+  s_d4226715fa403e::t_1a1fa8640df811 16-17,19,21
+  s_d4226715fa403e::t_f2b07ac070012f 20
+  s_d4226715fa403e::t_2110fe9093b103 15,18,22-23
+src/layouts/BaseLayout.astro
+  s_d4226715fa403e::t_236d300a766a20 3,28-29
+astro.config.mjs
+  s_d4226715fa403e::t_0b84813ac7ee20 4,8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "5c1475291682a0d1348019325365122e84775fda",
+  "prompts": {},
+  "sessions": {
+    "s_d4226715fa403e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1b728c539ffeVzC4VnyhGw9pOB",
+        "model": "accounts/fireworks/routers/kimi-k2p6-turbo"
+      },
+      "human_author": "Minh <jaccob_cassandr4837@hotmail.com>"
+    }
+  }
+}
