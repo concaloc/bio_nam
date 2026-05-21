@@ -1,0 +1,50 @@
+---
+import SectionReveal from '../ui/SectionReveal.astro';
+
+const skills = [
+  'Astro', 'React', 'TypeScript', 'Tailwind CSS',
+  'Node.js', 'PostgreSQL', 'Git', 'Figma'
+];
+---
+
+<section id="about" class="py-24 px-6 bg-bg-alt">
+  <div class="max-w-3xl mx-auto">
+    <SectionReveal>
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-text mb-8 text-center">
+        About Me
+      </h2>
+    </SectionReveal>
+
+    <div class="space-y-6 text-text-muted leading-relaxed">
+      <SectionReveal delay={1}>
+        <p>
+          Hello! I'm a passionate developer who loves turning ideas into reality through code.
+          With a strong foundation in modern web technologies, I focus on creating applications
+          that are not only functional but also delightful to use.
+        </p>
+      </SectionReveal>
+
+      <SectionReveal delay={2}>
+        <p>
+          When I'm not coding, you'll find me exploring new frameworks, contributing to open-source,
+          or writing about my learnings. I believe in continuous learning and the power of community.
+        </p>
+      </SectionReveal>
+    </div>
+
+    <SectionReveal delay={2}>
+      <div class="mt-12">
+        <h3 class="text-sm font-semibold text-text-muted uppercase tracking-wider mb-6 text-center">
+          Technologies I Work With
+        </h3>
+        <div class="flex flex-wrap gap-3 justify-center">
+          {skills.map(skill => (
+            <span class="px-4 py-2 bg-bg border border-text-muted/10 rounded-full text-sm font-medium text-text hover:border-primary hover:text-primary transition-colors duration-300 cursor-default">
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+    </SectionReveal>
+  </div>
+</section>

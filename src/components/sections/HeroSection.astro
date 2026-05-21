@@ -1,0 +1,47 @@
+---
+import SectionReveal from '../ui/SectionReveal.astro';
+import PlaceholderAvatar from '../ui/PlaceholderAvatar.astro';
+---
+
+<section class="min-h-[90vh] flex items-center justify-center px-6">
+  <div class="max-w-2xl mx-auto text-center">
+    <SectionReveal delay={1}>
+      <PlaceholderAvatar size={160} class="mx-auto mb-8 shadow-2xl" />
+    </SectionReveal>
+
+    <SectionReveal delay={2}>
+      <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-text mb-4">
+        Your Name
+      </h1>
+    </SectionReveal>
+
+    <SectionReveal delay={3}>
+      <p class="text-xl md:text-2xl text-text-muted font-medium mb-6">
+        Full Stack Developer & UI Engineer
+      </p>
+    </SectionReveal>
+
+    <SectionReveal delay={4}>
+      <p class="text-base text-text-muted max-w-lg mx-auto mb-10 leading-relaxed">
+        I craft accessible, pixel-perfect, and performant web experiences using modern technologies.
+      </p>
+    </SectionReveal>
+
+    <SectionReveal delay={4}>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a
+          href="#contact"
+          class="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-hover transition-all duration-300 shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5"
+        >
+          Get in Touch
+        </a>
+        <a
+          href="#about"
+          class="px-6 py-3 bg-bg-alt text-text font-semibold rounded-lg border border-text-muted/20 hover:border-text-muted/40 hover:bg-text-muted/5 transition-all duration-300"
+        >
+          Learn More
+        </a>
+      </div>
+    </SectionReveal>
+  </div>
+</section>
