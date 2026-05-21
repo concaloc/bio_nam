@@ -1,0 +1,41 @@
+src/pages/index.astro
+  s_d4226715fa403e::t_04fd2128d659c9 2,8
+  s_d4226715fa403e::t_98a592b8b4695b 3,6-7
+src/components/sections/AboutSection.astro
+  s_d4226715fa403e::t_261d8de6dbee2f 1-50
+src/components/sections/BioSection.astro
+  s_d4226715fa403e::t_4141a67290ba0a 1-92
+astro.config.mjs
+  s_d4226715fa403e::t_3393159d7dfd18 3,6-10
+src/styles/global.css
+  s_d4226715fa403e::t_17195c47470f14 4-5,7-8,17-19,21-99,102-127,130-132,141-201
+  s_d4226715fa403e::t_c6428ad728eb14 2-3,6,9-16,20,100-101,128-129,133-140
+src/components/ui/SectionReveal.astro
+  s_d4226715fa403e::t_4730fccba093fe 1-13
+src/layouts/BaseLayout.astro
+  s_d4226715fa403e::t_7669a5a264173f 31-39,41,60-61
+  s_d4226715fa403e::t_6275b3117e9922 9-29,40,42-59
+package.json
+  s_d4226715fa403e::t_5e7b4481ff8746 16-19,21
+src/components/sections/ContactSection.astro
+  s_d4226715fa403e::t_770610d1163540 1-104
+src/components/ui/PlaceholderAvatar.astro
+  s_d4226715fa403e::t_241e93083cf07f 1-6,8-9,16
+  s_d4226715fa403e::t_7976a5d02848d4 7,10-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "448011b3ac85f3c581ed38f7e7f35d0029828d70",
+  "prompts": {},
+  "sessions": {
+    "s_d4226715fa403e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1b728c539ffeVzC4VnyhGw9pOB",
+        "model": "accounts/fireworks/routers/kimi-k2p6-turbo"
+      },
+      "human_author": "Minh <jaccob_cassandr4837@hotmail.com>"
+    }
+  }
+}
